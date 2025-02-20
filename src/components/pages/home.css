@@ -1,0 +1,38 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to bottom, #145886, #ffffff);
+  /* height: calc(100vh - 60px); */
+  /* Adjust this based on the navbar height */
+  background-image: url("../../assets/image/bg-image1.jpg");
+  /* background-image: url("C:\Users\HP\Documents\CA Demo Website\CA project\src\assets\image\bg-image2.jpg"); */
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  padding: 10px;
+  width: 100vw;
+  margin: 0;
+  position: relative;
+  overflow: hidden;
+  margin-right: 54px;
+}
+
+/* Add a blurred background image */
+.home::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("C:/Users/HP/Documents/CA Demo Website/CA project/src/assets/image/Pitaximage.jpg");
+  background-size: cover;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  filter: blur(25px); /* Adjust blur value as needed */
+  /* background-color: rgba(0, 0, 0, 0.3); Optional dark overlay for visibility */
+  z-index: -1; /* Ensures it's behind other content */
+}
