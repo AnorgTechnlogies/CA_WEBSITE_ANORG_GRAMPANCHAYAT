@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Routes, Route, Navigate, useLocation } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 import Home from "./components/pages/home";
 import Services from "./components/pages/Services";
 import About from "./components/pages/about";

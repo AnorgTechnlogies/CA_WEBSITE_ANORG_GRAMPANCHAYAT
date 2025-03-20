@@ -12,12 +12,11 @@
   background-position: center top;
   background-repeat: no-repeat;
   text-align: center;
-  padding: 10px;
-  width: 100vw;
+  padding: 0px; 
+  width: 99vw;
   margin: 0;
   position: relative;
   overflow: hidden;
-  margin-right: 54px;
 }
 
 /* Add a blurred background image */
